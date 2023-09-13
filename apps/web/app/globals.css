@@ -19,6 +19,21 @@ h1{
  	font-family: 'DM Sans', sans-serif; 
 }
 
+h2{
+  font-size: 50px;
+}
+h3{
+  font-size: 40px;
+}
+h4{
+  font-size: 30px
+}
+.sub{
+  font-size: 23px;
+  color: #ccc; 
+  font-weight: 500;
+}
+
 .grad-text{
 	background: -webkit-linear-gradient(150deg, #00DBDE 0%, #FC00FF 100%);
   -webkit-background-clip: text;
@@ -36,3 +51,14 @@ button{
   max-width: 1444px;
 }
 
+/*-------utility calsses---------*/
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

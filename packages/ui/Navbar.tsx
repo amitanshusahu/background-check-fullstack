@@ -17,17 +17,20 @@ const StyledDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: calc(100% - 60px);
   max-width: 1444px;
-  margin: 30px 0;
+  padding: 30px;
   top: 0;
+  z-index: 500;
+  backdrop-filter: blur(10px);
+  background-color: rgba(260, 260, 260, 0.9);
 
   h1{ font-size: 40px; }
   ul{
     display: flex;
     gap: 30px;
     
-    li{
+  li{
       font-size: 23px;
       color: grey;
       list-style: none;
